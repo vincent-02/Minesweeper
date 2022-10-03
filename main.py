@@ -28,16 +28,16 @@ game_title = Label(
 )
 
 game_title.place(
-    x=utils.width_prct(25), y=0
+    x=utils.width_prct(50), y=0
 )
 
 left_frame = Frame(
     root,
     bg='black',
-    width=utils.width_prct(25),
-    height=utils.height_prct(75)
+    width=utils.width_prct(100),
+    height=utils.height_prct(25)
 )
-left_frame.place(x=0, y=utils.height_prct(25))
+left_frame.place(x=utils.width_prct(45), y=utils.height_prct(0))
 
 center_frame = Frame(
     root,
@@ -46,8 +46,8 @@ center_frame = Frame(
     height=utils.height_prct(75)
 )
 center_frame.place(
-    x=utils.width_prct(25),
-    y=utils.height_prct(25),
+    x=utils.width_prct(0),
+    y=utils.height_prct(10),
 )
 
 for x in range(settings.GRID_SIZE):

@@ -36,7 +36,7 @@ class Cell:
             bg='black',
             fg='white',
             text=f"{settings.MINES_COUNT}",
-            font=("", 30)
+            font=("", 16)
         )
         Cell.cell_count_label_object = lbl
 
